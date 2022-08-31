@@ -137,7 +137,7 @@ def main(data_path: str, launch_type: str,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='This script trains noise classifier')
+        description='Mel Spectogram Classifier')
     parser.add_argument('data_path', type=str,
                         help='Path for the audio (.wav, .flac) or mel file(s) (.npy)')
     parser.add_argument('--launch_type', type=str, default='train',
